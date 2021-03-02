@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+ }
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #fff;
+ }
+ header {
+    padding: 2vw 4% 2vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+ }
+ h1 {
+    margin: 0; padding: 0;
+ }
+ a {	
+    text-decoration: none;
+    color: #fff;
+ }
+ nav {
+    margin: 0 0 0 auto;
+ }
+ ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+ }
+ li {
+    margin: 0 0 0 15px;
+ }
+ .message-wrapper {
+    width: 100vw;
+    height: 700px;
+    background-image: url("img/message-img.png");
+    background-size: cover;  
+    background-repeat: no-repeat;
+ }
+ .message-wrapper h1 {
+    color: #FFF;
+    font-size: 3vw;
+    padding: 20vw 0 0 3vw;
+    letter-spacing: 0.1vw;
+}
+.topics-area {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: ;
+}
+.topics-area h1 {
+    font-size: 3.1vw;
+    margin-top: 0.7em;
+    color: #004da2;
+}
+.topics-area img {
+    width: 5vw;
+    height: 5vw;
+}
+.topics-list li {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 1.5em;
+}
+.topics-list p {
+   margin-left: 4vw;
+}
+.service-wrapper {
+   width: 100%;
+   height: 800px;
+   text-align: center;
+   position: relative;
+}
+.service-wrapper img {
+   width: 70%;
+   margin-top: 100px;
+}
+.service-letter {
+   font-size: 5vw;
+   color: #004da2;
+   letter-spacing: 1vw;
+   font-weight: bolder;
+   position: relative;
+   top: -40.5vw;
+   left: -20vw;
+}
+.service-more {
+   display: block;
+   color: #fff;
+   background-color: #004da2;
+   width: 37.4vw;
+   padding: 4vw;
+   position: relative;
+   top: -10vw;
+   left: 54vw;
+   font-size: 2vw;
+}
