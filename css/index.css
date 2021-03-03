@@ -15,6 +15,7 @@
     background: rgba(255, 255, 255, 0);
     display: flex;
     align-items: center;
+    transition: .7s;
  }
  h1 {
     margin: 0; padding: 0;
@@ -38,7 +39,9 @@
     width: 100vw;
     height: 700px;
     background-image: url("img/message-img.png");
-    background-size: cover;  
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
  }
  .message-wrapper h1 {
@@ -81,14 +84,17 @@
    width: 70%;
    margin-top: 100px;
 }
-.service-letter {
+.service-container {
+   width: 100%;
+}
+.service-h1 {
    font-size: 5vw;
    color: #004da2;
    letter-spacing: 1vw;
    font-weight: bolder;
    position: relative;
-   top: -40.5vw;
-   left: -20vw;
+   top: 358px;
+   left: -180px;
 }
 .service-more {
    display: block;
@@ -97,7 +103,24 @@
    width: 37.4vw;
    padding: 4vw;
    position: relative;
-   top: -10vw;
-   left: 54vw;
+   top: 56vw;
+   left: 53vw;
    font-size: 2vw;
+}
+.service-wrapper h3 {
+   color: #004da2;
+}
+.service-description {
+   width: 30vw;
+   height: 2vw;
+   font-size: 1.7vw;
+}
+.descriptions {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 57vw;
+   left: -17vw;
 }
